@@ -1,37 +1,87 @@
 /* General styling*/
-body{
-    font-family: 'Open Sans';
-    color:#000;
-    overflow-x: hidden;
+*{
+    margin: 0;
+    padding: 0;
+    color: #333;
+    
 }
-p{
-    line-height: 24px;
-    font-weight: 300;
+.row{
+    margin-top: 15px;
 }
 a{
     text-decoration: none;
-    color: #e00918;
+    color: #333;
 }
 a:hover{
-    color: #e00918;
+    text-decoration: none;
+    color: #333;
 }
-span{
-    color: #e00918;
+/* HEADER Styling */
+.menu{
+    font-size: 20px;
+    
 }
-ul{
-    padding: 0;
+.menu i:hover{
+    color: #3498db;
+    transition: color 0.3s;
 }
-hr{
-    width: 100%;
-    height: 1px;
-    background-color: #d9dcdf;
+.user-info{
+    float: right !important;
+    margin: -55px 0 0 0 ;
+    
+}
+.user-info img{
+    margin-left: 20px;
+}
+.categories{
+    text-align: center;
+}
+.categories ul li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin: 0 20px 0 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+li a{
+    color: #333;
+}
+li a:hover{
+    border-bottom: 2px solid #3498db;
+    transition: border 0.3s;
+    text-decoration: none;
+}
+/* PROMO SECTION STYLING */
+.promo{
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+}
+.container-fluid{
+     overflow-x: hidden;
+}
+.h4{
+    padding-left: 15px;
+}
+.video{
+    width: 300px;
+}
+/* FOOTER STYLING */
+.footer{
+    text-align: center;
+    padding-top: 20px;
+}
+/* Search resault  styling */
+.fights ul li{
+    list-style: none;
+    margin: 25px;
+}
+.fights h3{
+ display: inline;
+    padding-left: 25px;
+}
+.fights a:hover{
+    text-decoration: none;
+    color: #333;
     border: none;
-    margin: 30px 0;
-}
-h1,h2,h3,h4,h5,h6{
-    margin: 0;
-    padding: 0;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
